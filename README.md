@@ -6,11 +6,11 @@
 
 | Skill | 功能简介 | 创建时间 | 当前版本 |
 | --- | --- | --- | --- |
-| [create-skill](./create-skill/SKILL.md) | 引导用户提炼工作流程并创建可复用的 `SKILL.md`。 | 2026-10-16 | 1.0.0 |
+| [pharah-skill](./pharah-skill/SKILL.md) | 管理仓库中的 skill：创建、查询、更新和删除，并维护版本及 README 清单。 | 2026-10-16 | 2.1.1 |
 | [ddd-package-structure](./ddd-package-structure/SKILL.md) | 按 Rocket 风格组织 Java 功能模块的分层与分包结构。 | 2026-10-16 | 2.0.0 |
 | [douyinpay-payment-integration](./douyinpay-payment-integration/SKILL.md) | 支持抖音支付产品选型、服务端 SDK 集成及接入问题排查。 | 2026-10-16 | 1.0.0 |
 | [gradle8-compat](./gradle8-compat/SKILL.md) | 为项目适配 Gradle 8.x，并处理 Gradle Wrapper 升级。 | 2026-10-16 | 1.3.0 |
-| [save-work-doc](./save-work-doc/SKILL.md) | 按分类保存工作文档，并维护文档索引以便后续查找和修改。 | 2026-10-16 | 1.0.0 |
+| [pharah-doc](./pharah-doc/SKILL.md) | 显式调用后，通过统一指令管理工作文档初始化、CRUD 及 Git 提交推送。 | 2026-10-16 | 3.7.0 |
 
 创建时间以 Git 首次纳入对应 skill 的日期为准。
 

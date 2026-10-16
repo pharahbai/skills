@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="doc-version" content="{{版本}}">
+  <title>{{主题}} DDL文档</title>
+</head>
+<body>
+  <main>
+    <h1>{{主题}} DDL文档</h1>
+    <ul>
+      <li>文档版本：{{版本}}</li>
+      <li>创建日期：{{创建时间}}</li>
+      <li>数据库类型与版本：{{数据库类型与版本}}</li>
+      <li>状态：{{状态}}</li>
+    </ul>
+    <h2>变更说明</h2>
+    <p>{{说明变更原因、影响范围和兼容性}}</p>
+    <h2>DDL</h2>
+    <pre><code>{{填写建表、变更或回滚 SQL}}</code></pre>
+    <h2>执行顺序与前置条件</h2>
+    <p>{{说明依赖、执行顺序、锁表或停机要求}}</p>
+    <h2>数据迁移与校验</h2>
+    <p>{{说明数据迁移步骤及验证 SQL}}</p>
+    <h2>回滚方案</h2>
+    <p>{{说明回滚步骤和风险}}</p>
+    <h2>验证记录</h2>
+    <p>{{记录执行结果}}</p>
+  </main>
+</body>
+</html>

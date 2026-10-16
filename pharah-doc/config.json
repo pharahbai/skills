@@ -1,0 +1,68 @@
+{
+  "workDocs": {
+    "indexFile": "README.md"
+  },
+  "filename": {
+    "pattern": "{topic}_{documentType}_{createdAt}.{extension}",
+    "dateFormat": "YYYYMMDD"
+  },
+  "versioning": {
+    "initialVersion": "1.0.0",
+    "incrementOnUpdate": "patch"
+  },
+  "changeLog": {
+    "fileName": "update.log",
+    "dateFormat": "YYYYMMDD",
+    "entryFormat": "{date} | {documentName} | {version} | {changeSummary}"
+  },
+  "formats": {
+    "default": "md",
+    "enabled": {
+      "md": {
+        "extension": "md",
+        "label": "Markdown"
+      },
+      "html": {
+        "extension": "html",
+        "label": "HTML"
+      }
+    }
+  },
+  "documentTypes": [
+    {
+      "name": "调研文档",
+      "templates": {
+        "md": "./doc-type/调研文档.md",
+        "html": "./doc-type/调研文档.html"
+      }
+    },
+    {
+      "name": "设计文档",
+      "templates": {
+        "md": "./doc-type/设计文档.md",
+        "html": "./doc-type/设计文档.html"
+      }
+    },
+    {
+      "name": "DDL文档",
+      "templates": {
+        "md": "./doc-type/DDL文档.md",
+        "html": "./doc-type/DDL文档.html"
+      }
+    },
+    {
+      "name": "开发文档",
+      "templates": {
+        "md": "./doc-type/开发文档.md",
+        "html": "./doc-type/开发文档.html"
+      }
+    },
+    {
+      "name": "接口文档",
+      "templates": {
+        "md": "./doc-type/接口文档.md",
+        "html": "./doc-type/接口文档.html"
+      }
+    }
+  ]
+}
