@@ -6,7 +6,7 @@
 
 | Skill | 功能简介 | 创建时间 | 当前版本 |
 | --- | --- | --- | --- |
-| [pharah-skill](./pharah-skill/SKILL.md) | 管理仓库中的 skill：创建、查询、更新和删除，并维护版本及 README 清单。 | 2026-10-16 | 2.1.1 |
+| [pharah-skill](./pharah-skill/SKILL.md) | 管理仓库中的 skill：配置仓库路径，创建、查询、更新和删除 skill，并维护版本及 README 清单。 | 2026-10-16 | 3.0.0 |
 | [pharah-doc](./pharah-doc/SKILL.md) | 显式调用后，通过统一指令管理工作文档初始化、CRUD 及 Git 提交推送。 | 2026-10-16 | 3.7.0 |
 
 创建时间以 Git 首次纳入对应 skill 的日期为准。
