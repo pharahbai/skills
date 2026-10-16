@@ -9,6 +9,7 @@ description: >-
   或涉及抖音支付官方域名 pay.douyinpay.com，api.douyinpay.com
   或涉及抖音支付的接入集成、接口调用、SDK使用、代码示例、参数说明、
   支付流程、域名配置等场景时，使用此 Skill。
+version: 1.0.0
 ---
 
 # 1 工具

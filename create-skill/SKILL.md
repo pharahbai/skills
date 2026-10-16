@@ -1,6 +1,7 @@
 ---
 name: create-skill
 description: 'Create a reusable skill (SKILL.md) that packages a workflow.'
+version: 1.0.0
 argument-hint: What should this skill produce?
 disable-model-invocation: true
 ---
