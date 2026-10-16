@@ -8,6 +8,7 @@
 | --- | --- | --- | --- |
 | [pharah-skill](./pharah-skill/SKILL.md) | 管理仓库中的 skill：配置仓库路径，创建、查询、更新和删除 skill，并维护版本及 README 清单。 | 2026-10-16 | 3.0.0 |
 | [pharah-doc](./pharah-doc/SKILL.md) | 显式调用后，通过统一指令管理工作文档初始化、CRUD 及 Git 提交推送。 | 2026-10-16 | 3.7.0 |
+| [pharah-git](./pharah-git/SKILL.md) | 显式调用后，约束 agent 提交与推送代码的格式：mes 生成规范提交信息，commit 提交（提交前校验远端更新），push 推送并在远端新建分支。 | 2026-10-16 | 1.1.0 |
 
 创建时间以 Git 首次纳入对应 skill 的日期为准。
 
